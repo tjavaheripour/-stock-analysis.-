@@ -13,7 +13,7 @@ By Reviewing all stocks in 2017 and 2018, we discover in 2017, all stocks had po
 
 In 2018 , Just two stocks “ENPH” and “RUN” had positive returns  , 81.9% and 84.0% respectively and other returns of stocks were negative.
 
-
+![All Stocks Analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202018.PNG)
 
 So according to above tables, 
 
