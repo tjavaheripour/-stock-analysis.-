@@ -12,9 +12,10 @@ Reviewing all stocks in 2017 and 2018, we discovered that all stocks but “TERP
 
 ![All Stocks Analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202017.PNG)
 
-In 2018 , Just two stocks “ENPH” and “RUN” had positive returns  , 81.9% and 84.0% respectively and other returns of stocks were negative.
 
 Furthermore, In 2018 , only two stocks “ENPH” and “RUN” had positive returns of 81.9% and 84.0% respectively and other stocks had negative rates.
+
+[All Stocks Analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202018.PNG)
 
 So in conclusion, while DQ stock outraced all other stocks with the outstanding increase of 199.4% in 2017 but because it dropped significantly (-62.6%) in 2018 it is not the best stock to purchase.  Meanwhile RUN and ENPH rose about 130% and 6% respectively in 2017 and could maintain this positive rate of grow in 2018 so are performing much better than DQ over two years.
 
