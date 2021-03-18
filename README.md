@@ -19,6 +19,13 @@ Furthermore, In 2018 , only two stocks “ENPH” and “RUN” had positive ret
 
 So in conclusion, while DQ stock outraced all other stocks with the outstanding increase of 199.4% in 2017 but because it dropped significantly (-62.6%) in 2018 it is not the best stock to purchase.  Meanwhile RUN and ENPH rose about 130% and 6% respectively in 2017 and could maintain this positive rate of grow in 2018 so are performing much better than DQ over two years.
 
+
+#### Compare VBA Stock execution times before and after refactoring code
+
+##### Original VBA Code Performance in 2017 & 2018
+![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)
+##### Refactored VBA Code Performance in 2017 & 2018
+![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
 ## Summary
 
 
