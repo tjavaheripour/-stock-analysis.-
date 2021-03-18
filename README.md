@@ -28,7 +28,7 @@ So in conclusion, while DQ stock outraced all other stocks with the outstanding 
 
 ##### Refactored VBA Code Performance in 2017 & 2018
 
-![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)![VBA_Challenge_2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 ## Summary
 
