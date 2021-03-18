@@ -23,9 +23,13 @@ So in conclusion, while DQ stock outraced all other stocks with the outstanding 
 #### Compare VBA Stock execution times before and after refactoring code
 
 ##### Original VBA Code Performance in 2017 & 2018
-![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)
+
+![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)![year value analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202018.png)
+
 ##### Refactored VBA Code Performance in 2017 & 2018
+
 ![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
 ## Summary
 
 
