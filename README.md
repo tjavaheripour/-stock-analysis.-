@@ -45,4 +45,4 @@ Negative side of refactoring code is it increase chance of mistake when it is bi
 
 
 #### 2. How do these pros and cons apply to refactoring the original VBA script?
-In this case, the original VBA script may work as well to automate analysis of few stocks but executing the code to evaluate thousands of stocks takes a long time. The refactored VBA code script will loop through all the data by taking fewer steps in less time and using less memory for processing data. Moreover, clean and organized code make it easier to maintain for others.
+In this case, the original VBA script may work as well to automate analysis of few stocks but executing the code to evaluate thousands of stocks takes a long time. The refactored VBA code script will loop through all the data by taking fewer steps in less time and using less memory for processing data. Moreover, clean and organized code make it easier to maintain for others. For me as a downside, it takes along time to understand the index variable and be able to use it in for loop. 
