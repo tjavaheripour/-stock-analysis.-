@@ -40,8 +40,9 @@ So in conclusion, while DQ stock outraced all other stocks with the outstanding 
 
 #### 1. What are the advantages or disadvantages of refactoring code?
 Code Refactoring is a way of restructuring and optimizing existing code without changing its behavior. It is a way to improve the code quality. Sometimes bad patterns like tight coupling, duplicate code, long methods, large classes, etc. are detected in the code so the code should be refactored in this case.
-Refactoring code has lots of positive points, it helps in increasing the flexibility of the code, also cause the code be fresher, clean and organized , easier to understand and easier to maintain.
+Refactoring code has lots of positive points, it helps in increasing the flexibility of the code, easier to understand and read also cause the code be fresher and organized.
 Negative side of refactoring code is it increase chance of mistake when it is big, if it went wrong, you will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code.
 
 
 #### 2. How do these pros and cons apply to refactoring the original VBA script?
+In this case, the original VBA script may work as well to automate analysis of few stocks but executing the code to evaluate thousands of stocks takes a long time. The refactored VBA code script will loop through all the data by taking fewer steps in less time and using less memory. Moreover, clean and organized code make it easier to maintain for others.
