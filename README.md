@@ -8,9 +8,10 @@ Our review demonstrates that DQ is not a preferable purchase for this family as 
 
 ## Results and Analysis
 
-At first, ,in the original VBA script, we need to calculate the yearly volume with sum up all of the daily volume for each stock. For reaching this goal, we created an array of all 12 tickers with a loop through all rows of data in year worksheet to extract Total volume for each stock by using if-statements to distinguish startingprice and endingprice for each stock. 
-Then to know how each stock performed in 2017 and 2018, we should calculate the yearly return to find the percentage increase or decrease in price from the beginning of the year to the end of the year.
-   - Return= endingPrice / startingPrice - 1
+First, in the original VBA script, we need to calculate the yearly volume of each stock by adding up the daily volumes. For reaching this goal, we created an array of all 12 tickers with a loop through all rows of data in Year worksheet to extract “Total Volume” for each stock by using if-statements to distinguish “startingprice” and “endingprice” for each stock. Secondly, to know how each stock performed in 2017 and 2018, we should calculate the yearly return to find the percentage increase/decrease in price from the beginning of the year to the end of the year.
+
+Return= endingPrice / startingPrice – 1
+
 
 Reviewing all stocks in 2017 and 2018, we discovered that all stocks but “TERP” had positive return percentage in 2017 and “DQ” had the highest return rate of 199.4%. 
 
@@ -26,13 +27,13 @@ So in conclusion, while DQ stock outraced all other stocks with the outstanding 
 
 #### Compare VBA Stock execution times before and after refactoring code
 
-By refactoring the code and taking fewer steps and using less memory, you just make the code more efficient to run faster. You can see the differences of performance execution times before and after refactoring data as shown below. The first time you run a macro, the elapsed time may be longer than subsequent runs because computer resources need to be allocated to run the macro.
+By refactoring the code and taking fewer steps and using less memory, you just make the code more efficient running faster. You can see the difference between performance execution times before and after refactoring data as shown below. 
 
 ##### Original VBA Code Performance in 2017 & 2018
 
 ![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)![year value analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202018.png)
 
-As you can see from the below image, the original code contain a nested for loop that check all rows of data for each stock ticker and gather data before cycling to the next stock ticker. Because of that the code takes a long time to be executed.
+As you can see from the below image, the original code contains a nested for loop that checks all rows of data for each stock ticker and gathers data before cycling to the next stock ticker. Because of that the code takes a long time to execute:
 
 ![Original VBA script.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/Original%20VBA%20script.PNG)
 
@@ -40,7 +41,7 @@ As you can see from the below image, the original code contain a nested for loop
 
 ![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)![VBA_Challenge_2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
-As you can see, the refactored VBA script gather data with only looped once through all the rows in the spreadsheet:
+As you can see, the refactored VBA script gathers data with only looping once through all the rows in the spreadsheet.:
 
 ![Refactored loop.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/Refactored%20loop.PNG)
 
@@ -49,10 +50,9 @@ As you can see, the refactored VBA script gather data with only looped once thro
 
 
 #### 1. What are the advantages or disadvantages of refactoring code?
-Code Refactoring is a way of restructuring and optimizing existing code without changing its behavior. It is a way to improve the code quality. Sometimes bad patterns like tight coupling, duplicate code, long methods, large classes, etc. are detected in the code so the code should be refactored in this case.
-Refactoring code has lots of positive points, it helps in increasing the flexibility of the code, easier to understand and read also cause the code be fresher and organized.
-Negative side of refactoring code is it increase chance of mistake when it is big, if it went wrong, you will have to waste much more time in solving the problem and there are probable chances that it may go wrong due to complexity of the code.
+
+Code Refactoring is a way of restructuring and optimizing existing code without changing its behavior. It is a way to improve the code quality. Sometimes bad patterns like tight coupling, duplicate code, long methods, large classes, etc. are detected in the code so the code should be refactored in this case. Refactoring code has lots of positive benefits, it helps in increasing the flexibility of the code, making it easier to understand and organize. Negative side of refactoring code is increasing the chance of mistake when it is long. you will have to spend much more time in solving the problem and the chances of making mistake increases due to complexity of the code.
 
 
 #### 2. How do these pros and cons apply to refactoring the original VBA script?
-In this case, the original VBA script may work as well to automate analysis of few stocks but executing the code to evaluate thousands of stocks takes a long time. The refactored VBA code script will loop through all the data by taking fewer steps in less time and using less memory for processing data. Moreover, clean and organized code make it easier to maintain for others. For me as a downside, it takes along time to understand the index variable and be able to use it in for loop. 
+In this case, the original VBA script may work as well to automate analysis of few stocks but executing the code to evaluate thousands of stocks takes a long time. The refactored VBA code script will loop through all the data by taking fewer steps in less time and use less memory for processing data. Moreover, clean and organized code is easier to read and maintain. 
