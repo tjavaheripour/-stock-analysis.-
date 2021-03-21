@@ -26,6 +26,8 @@ So in conclusion, while DQ stock outraced all other stocks with the outstanding 
 
 #### Compare VBA Stock execution times before and after refactoring code
 
+By refactoring the code and taking fewer steps and using less memory, you just make the code more efficient to run faster. You can see the differences of performance execution times before and after refactoring data as shown below. The first time you run a macro, the elapsed time may be longer than subsequent runs because computer resources need to be allocated to run the macro.
+
 ##### Original VBA Code Performance in 2017 & 2018
 
 ![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)![year value analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202018.png)
