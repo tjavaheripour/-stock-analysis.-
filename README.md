@@ -8,7 +8,7 @@ Our review demonstrates that DQ is not a preferable purchase for this family as 
 
 ## Results and Analysis
 
-At first, we need to calculate the yearly volume with sum up all of the daily volume for each stock. For reaching this goal, we created an array of all 12 tickers with a loop through all rows of data in year worksheet to extract Total volume for each stock by using if-statements to distinguish startingprice and endingprice for each stock. 
+At first, ,in the original VBA script, we need to calculate the yearly volume with sum up all of the daily volume for each stock. For reaching this goal, we created an array of all 12 tickers with a loop through all rows of data in year worksheet to extract Total volume for each stock by using if-statements to distinguish startingprice and endingprice for each stock. 
 Then to know how each stock performed in 2017 and 2018, we should calculate the yearly return to find the percentage increase or decrease in price from the beginning of the year to the end of the year.
    - Return= endingPrice / startingPrice - 1
 
