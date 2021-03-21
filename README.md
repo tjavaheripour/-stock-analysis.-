@@ -32,9 +32,13 @@ By refactoring the code and taking fewer steps and using less memory, you just m
 
 ![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)![year value analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202018.png)
 
+![Original VBA script.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/Original%20VBA%20script.PNG)
+
 ##### Refactored VBA Code Performance in 2017 & 2018
 
 ![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)![VBA_Challenge_2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
+![Refactored loop.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/Refactored%20loop.PNG)
 
 ## Summary
 
