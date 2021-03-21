@@ -40,6 +40,8 @@ As you can see from the below image, the original code contain a nested for loop
 
 ![VBA_Challenge_2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)![VBA_Challenge_2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
+As you can see, the refactored VBA script gather data with only looped once through all the rows in the spreadsheet:
+
 ![Refactored loop.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/Refactored%20loop.PNG)
 
 ## Summary
