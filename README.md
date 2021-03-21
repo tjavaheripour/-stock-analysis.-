@@ -32,6 +32,8 @@ By refactoring the code and taking fewer steps and using less memory, you just m
 
 ![year value analysis 2017.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202017.png)![year value analysis 2018.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/year%20value%20analysis%202018.png)
 
+As you can see from the below image, the original code contain a nested for loop that check all rows of data for each stock ticker and gather data before cycling to the next stock ticker. Because of that the code takes a long time to be executed.
+
 ![Original VBA script.png](https://github.com/tjavaheripour/stock-analysis/blob/main/Resources/Original%20VBA%20script.PNG)
 
 ##### Refactored VBA Code Performance in 2017 & 2018
