@@ -2,7 +2,7 @@
 VBA project
 ## Overview of Project
 
-In this project, we help Steve to find the best stock to invest in for his parents. His parents are passionate about green energy so they decided to invest into Daqo New Energy Corporation. Steve created an Excel file containing the stock data. We are going to use VBA to help him automate analyses by calculating “Total Daily Volume” and “Yearly Return”of Daqo stock to know how actively DQ was traded and performed over the last few years. 
+In this project, we help Steve to find the best stock to invest in for his parents. His parents are passionate about green energy so they decided to invest into Daqo New Energy Corporation(DQ). Steve created an Excel file containing the stock data. We are going to use VBA to help him automate analyses by calculating “Total Daily Volume” and “Yearly Return”of Daqo stock to know how actively DQ was traded and performed over the last few years. 
 Our review demonstrates that DQ is not a preferable purchase for this family as we see a significant drop in the second year so we are going to use flexible macro to produce the “Total Daily Volume” and “Return” for every single stock and based on that find the best stock for Steve’s parents to buy.  Refactoring our VBA code, we produce a more effective and efficient code that takes much less time to execute thousands of stocks.
 
 
